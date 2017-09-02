@@ -7,7 +7,7 @@ setup(
   author = 'Greg Pritchard',
   author_email = 'gregcraig23@gmail.com',
   url = 'https://github.com/gregoryneal/zalgo', # use the URL to the github repo
-  download_url = 'https://github.com/gregoryneal/zalgo/archive/0.1.tar.gz',
+  download_url = 'https://github.com/gregoryneal/zalgo/archive/0.2.tar.gz',
   keywords = ['diacritic', 'filter', 'zalgo'], # arbitrary keywords
   classifiers = [],
 )
