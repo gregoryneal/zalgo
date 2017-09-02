@@ -1,7 +1,7 @@
 # zalgo
 A small library to create zalgo text
 
-#Install with pip
+# Install with pip
 You can install this package from pip with:
 ```pip install zalgo_text```
 
