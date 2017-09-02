@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'zalgo',
   packages = [''], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'A small library to process zalgo text',
   author = 'Greg Pritchard',
   author_email = 'gregcraig23@gmail.com',
