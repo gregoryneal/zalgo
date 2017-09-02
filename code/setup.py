@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'zalgotext',
-  packages = ['zalgotext'], # this must be the same as the name above
+  name = 'zalgo_text',
+  packages = ['zalgo_text'], # this must be the same as the name above
   version = '0.4',
   description = 'A small library to create zalgo text',
   author = 'Greg Pritchard',
