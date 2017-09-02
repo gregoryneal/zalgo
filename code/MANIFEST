@@ -2,5 +2,5 @@
 README.txt
 setup.cfg
 setup.py
-zalgo\__init__.py
-zalgo\zalgo.py
+zalgotext\__init__.py
+zalgotext\zalgo.py
