@@ -1,6 +1,6 @@
 To use first:
 
-import zalgo
+from zalgo_text import zalgo
 
 then you can do something like:
 
