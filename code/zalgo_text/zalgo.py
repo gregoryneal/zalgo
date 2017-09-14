@@ -72,8 +72,8 @@ class zalgo():
 
 if __name__ == "__main__":
 	z = zalgo()
-	z.numAccentsUp = (0,0)
-	z.numAccentsDown = (0,0)
-	z.numAccentsMiddle = (5,10)
+	z.numAccentsUp = (0,2)
+	z.numAccentsDown = (0,2)
+	z.numAccentsMiddle = (0,2)
 
-	print(z.zalgofy("Some text to zalgofy!"))
+	print(z.zalgofy("A small library to create zalgo styled text."))
