@@ -1,5 +1,11 @@
 import random
 
+def zalgofy(text):
+	'''
+	Zalgofy a string without explicitly creating a new zalgo instance
+	'''
+	return zalgo.zalgofy(text)
+
 class zalgo():
 
 	def __init__(self):
