@@ -1,11 +1,5 @@
 import random
 
-def zalgofy(text):
-	'''
-	Zalgofy a string without explicitly creating a new zalgo instance
-	'''
-	return zalgo.zalgofy(text)
-
 class zalgo():
 
 	def __init__(self):
@@ -17,7 +11,7 @@ class zalgo():
 		self.dd = ['̖',' ̗',' ̘',' ̙',' ̜',' ̝',' ̞',' ̟',' ̠',' ̤',' ̥',' ̦',' ̩',' ̪',' ̫',' ̬',' ̭',' ̮',' ̯',' ̰',' ̱',' ̲',' ̳',' ̹',' ̺',' ̻',' ̼',' ͅ',' ͇',' ͈',' ͉',' ͍',' ͎',' ͓',' ͔',' ͕',' ͖',' ͙',' ͚',' ',]
 		#upward diacritics
 		self.du = [' ̍',' ̎',' ̄',' ̅',' ̿',' ̑',' ̆',' ̐',' ͒',' ͗',' ͑',' ̇',' ̈',' ̊',' ͂',' ̓',' ̈́',' ͊',' ͋',' ͌',' ̃',' ̂',' ̌',' ͐',' ́',' ̋',' ̏',' ̽',' ̉',' ͣ',' ͤ',' ͥ',' ͦ',' ͧ',' ͨ',' ͩ',' ͪ',' ͫ',' ͬ',' ͭ',' ͮ',' ͯ',' ̾',' ͛',' ͆',' ̚',]
-		#build the alterations - zalgo and [text](/a) for shaking angery text
+		#middle diacritics
 		self.dm = [' ̕',' ̛',' ̀',' ́',' ͘',' ̡',' ̢',' ̧',' ̨',' ̴',' ̵',' ̶',' ͜',' ͝',' ͞',' ͟',' ͠',' ͢',' ̸',' ̷',' ͡',]
 
 	def zalgofy(self, text):
@@ -76,7 +70,6 @@ class zalgo():
 		Combines letter and a random character from diacriticList
 		'''
 		return letter.strip() + diacriticList[random.randrange(0, len(diacriticList))].strip()
-
 
 if __name__ == "__main__":
 	z = zalgo()
